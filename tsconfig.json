@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "experimentalDecorators": true,
-    "target": "ES6",
+    "target": "ES2017",
+    "lib": ["ES2017", "DOM"],
     "module": "commonjs",
     "strict": false,
     "baseUrl": "src",
