@@ -40,7 +40,7 @@ export interface RedocOptions {
    * or set it to a number to expand schemas up to the specified level. For example, schemaExpansionLevel: 3 expands schemas up to three levels deep.
    * The default value is 0, meaning no schemas are expanded automatically.
    */
-  schemaExpansionLevel?: number;
+  schemaExpansionLevel?: number | string;
   /** do not display schema title next to to the type */
   hideSchemaTitles?: boolean;
   /** show only unique oneOf types in the label without titles */
